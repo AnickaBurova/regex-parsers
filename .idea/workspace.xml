@@ -13,8 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9858139-54fe-4183-8854-c33e8ff321f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/regex_parsers.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-rp/src/test.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rp_ref.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/regex_parsers.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/regex_parsers.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
       <recent name="$PROJECT_DIR$/test-rp/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.Test">
+  <component name="RunManager" selected="Cargo.Check">
     <configuration name="Check" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="check" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -82,11 +84,6 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Cargo.Check" />
       <item itemvalue="Cargo.Test" />
@@ -111,6 +108,10 @@
       <workItem from="1620416540860" duration="2210000" />
       <workItem from="1620508928158" duration="1198000" />
       <workItem from="1620520624501" duration="6735000" />
+      <workItem from="1620693732310" duration="1631000" />
+      <workItem from="1620723889503" duration="653000" />
+      <workItem from="1620812398409" duration="665000" />
+      <workItem from="1620887515909" duration="14000" />
     </task>
     <servers />
   </component>
