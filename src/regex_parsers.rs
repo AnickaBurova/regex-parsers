@@ -79,6 +79,12 @@ impl<T: FromMatch> FromMatch for Rc<T> {
         Rc::new(Cap::new(m).convert())
     }
 }
+
+impl<T: FromMatch> FromMatch for Box<T> {
+    fn from_match<'t>(m: Option<Match<'t>>) -> Self {
+        Box::new(Cap::new(m).convert())
+    }
+}
 macro_rules! numbers {
     ($($ty: ty),+) => {
         $(

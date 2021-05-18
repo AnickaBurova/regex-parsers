@@ -1,3 +1,7 @@
 target/
 Cargo.lock
 .idea/
+.nvimrc
+.*.sw[a-p]
+.envrc
+shell.nix

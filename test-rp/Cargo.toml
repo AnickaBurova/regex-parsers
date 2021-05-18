@@ -8,7 +8,7 @@ edition = "2018"
 
 [dependencies]
 regex-parsers = { path = ".." }
-regex-procs = { path = "../../regex-procs", features = ["no_log"]}
+regex-procs = { path = "../../regex-procs" }
 lazy_static = "1.4.0"
 regex = "1.5.3"
 either = "1.6.1"
